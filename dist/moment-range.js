@@ -8,7 +8,7 @@
     // Node. Does not work with strict CommonJS, but
     // only CommonJS-like environments that support module.exports,
     // like Node.
-    module.exports = factory(require("moment"));
+    module.exports = factory(moment);
   } else {
     root['DateRange'] = factory(moment);
   }
